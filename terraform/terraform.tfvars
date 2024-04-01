@@ -1,0 +1,13 @@
+sorceDirectory     = "../my_directory"
+bucketName         = "demo-app-bucket"
+accessKey          = "AKIAYS2NQYXUWTVN5TP7"
+secretKey          = "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"
+zipFile            = "zip"
+region             = "us-east-1"
+appOutputPath      = "../my_directory"
+codeObjectkey      = "app.zip"
+deployRoleName     = "costume_role"
+lambdaFileName     = "LambdaHandler" // Updated Lambda function name
+lambdaFileFunction = "handleRequest"  // Updated Lambda function handler name
+awsLambdaRuntime   = "python3.12"          // Updated Lambda runtime
+lambdaName         = "jenkinslambda2"
