@@ -7,7 +7,12 @@ data "archive_file" "app_file" {
   type        = var.zipFile
   source_dir  = var.sorceDirectory
   output_path = var.appOutputPath
+
+  source {
+    content = fileset(var.sorceDirectory, "lambda_function.py")
+  }
 }
+
 
 resource "aws_s3_object" "app_item" {
   bucket = aws_s3_bucket.app_storing_bucket.bucket
