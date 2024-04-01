@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "app_storing_bucket" {
 
 data "archive_file" "app_file" {
   type        = var.zipFile
-  source_dir  = var.sorceDirectory
+  source_dir  = "../app/lambda_function.py"
   output_path = var.appOutputPath
 }
 
