@@ -15,38 +15,51 @@
 5. פתרון התרגיל על גבי שרת Jenkins ע"י Pipeline.
 
 # צילומי מסך לאורך שלבי הפרויקט:
-Github:
+### Github:
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/34091d4c-e53c-4764-b075-8c18ed3cd86b)
 
-SSH Authentication between GitHub and Jenkins:
+### SSH Authentication between GitHub and Jenkins:
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/709bae15-8d10-4fe4-a1ab-1ddb7b1dd740)
 
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/d7cfa411-4dcc-4833-aa85-7eb6eaff0c88)
 
-Terraform:
+### Terraform:
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/de3a131e-5032-43a3-a7f1-d65c1465e2fe)
 
-AWS:
+### AWS:
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/bff7e08a-9132-4f71-98e2-c6ec8aa85d39)
+
 
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/e4eb4f00-3f16-470f-9030-b2275c970db2)
 
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/c50c6935-82f5-43de-9cc8-8dcedff16503)
+
 
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/ab9535e8-ef79-4b7f-a9da-34b2f84b2292)
 
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/f18b06d1-a96b-48be-bc86-292d0ec96941)
+
 
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/b421f619-fb68-4ea0-afff-d0bbcd33d6d3)
 
-Jenkins:
+### Jenkins:
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/8c0ca66d-e919-4568-82a2-3ab2b7a93479)
+
 
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/610c3ccb-5beb-4325-b82e-aa629ad1472f)
 
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/240979b7-a699-4d17-acb7-a08ede063e1a)
 
-https://hk7qus7pbl.execute-api.us-west-2.amazonaws.com/lambda_stage/
+### https://hk7qus7pbl.execute-api.us-west-2.amazonaws.com/lambda_stage/
+
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/1f89a1da-e2a5-432d-9610-61f9b27ef709)
 
 
