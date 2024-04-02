@@ -1,10 +1,22 @@
 pipeline {
-
     agent any
+    
+    environment {
+        GITHUB_REPO_URL       = 'git@github.com:leahmontag/Bank-Leumi-Project.git'
+        JENKINS_CREDENTIALS   = 'jenkins' 
+    }
+    
+    
     stages {
+         stage('Checkout Code') {
+            steps {
+                git branch: 'main', credentialsId: JENKINS_CREDENTIALS, url: GITHUB_REPO_URL
+            }
+        }
+        
         stage('Init') {
           steps {
-            dir('setup'){
+            dir('terraform'){
               echo 'Terraform init in progress'
               sh '''
                 terraform init
@@ -15,7 +27,7 @@ pipeline {
 
         stage('Plan') {
           steps {
-            dir('setup'){
+            dir('terraform'){
               echo 'Terraform Plan in progress'
               sh '''
                 terraform plan
@@ -23,10 +35,10 @@ pipeline {
             }
           }
         }
-
-      stage('Apply and deploy') {
+        
+         stage('Apply and deploy') {
         steps {
-          dir('setup'){
+          dir('terraform'){
             echo 'Terraform Plan in progress'
             sh '''
               terraform apply -auto-approve
@@ -34,6 +46,7 @@ pipeline {
           }
         }
       }
+      
+        
     }
-
 }
