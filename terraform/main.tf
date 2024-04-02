@@ -19,6 +19,6 @@ resource "aws_lambda_function" "app_lambda" {
   s3_bucket     = aws_s3_bucket.app_storing_bucket.bucket
   role          = aws_iam_role.app_deploy_role.arn
   handler       = "${var.lambdaFileName}.${var.lambdaFileFunction}"
-  runtime       = var.awsLambdaRuntime
+  runtime       = var.LambdaRuntime
   function_name = var.lambdaName
 }

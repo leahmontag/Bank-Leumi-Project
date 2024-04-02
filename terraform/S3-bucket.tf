@@ -5,9 +5,10 @@ resource "aws_s3_bucket" "app_storing_bucket" {
 
 data "archive_file" "app_file" {
   type        = var.zipFile
-  source_dir  = "../app"
-  output_path = var.appOutputPath
+  source_dir  = var.sorceDir
+  output_path = "${path.module}/${var.codeObjectkey}"
 }
+
 
 resource "aws_s3_object" "app_item" {
   bucket = aws_s3_bucket.app_storing_bucket.bucket

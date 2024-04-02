@@ -16,10 +16,7 @@ variable "bucketName" {
 variable "zipFile" {
   type = string
 }
-variable "sorceDirectory" {
-  type = string
-}
-variable "appOutputPath" {
+variable "sorceDir" {
   type = string
 }
 variable "codeObjectkey" {
@@ -34,7 +31,7 @@ variable "lambdaFileName" {
 variable "lambdaFileFunction" {
   type = string
 }
-variable "awsLambdaRuntime" {
+variable "LambdaRuntime" {
   type = string
 }
 variable "lambdaName" {
