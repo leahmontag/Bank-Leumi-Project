@@ -56,7 +56,11 @@
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/610c3ccb-5beb-4325-b82e-aa629ad1472f)
 
 
-![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/240979b7-a699-4d17-acb7-a08ede063e1a)
+![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/7628798d-3ac5-47d2-87cc-906de9c73bec)
+
+
+![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/496cc944-41e8-4397-9682-5c5828478643)
+
 
 ### https://hk7qus7pbl.execute-api.us-west-2.amazonaws.com/lambda_stage/
 
@@ -66,13 +70,13 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # קישורים שנעזרתי בהם:
-1. https://github.com/eladjmc/terraform-lambda-aws/blob/main/README.md
-2. https://medium.com/@nikhil.nagarajappa/configuring-the-git-credentials-in-jenkins-4b584a797b45
-3. https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository
-4. https://www.youtube.com/watch?v=XEeRmxEZZj8
-5. https://spacelift.io/blog/terraform-jenkins
-6. https://www.youtube.com/watch?v=bybQxpM0kSQ
-7. https://www.tocode.co.il/blog/2021-05-aws-lambda-gateway
+1. https://medium.com/@nikhil.nagarajappa/configuring-the-git-credentials-in-jenkins-4b584a797b45
+2. https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository
+3. https://www.youtube.com/watch?v=XEeRmxEZZj8
+4. https://spacelift.io/blog/terraform-jenkins
+5. https://www.youtube.com/watch?v=bybQxpM0kSQ
+6. https://www.tocode.co.il/blog/2021-05-aws-lambda-gateway
+7. https://github.com/eladjmc/terraform-lambda-aws/blob/main/README.md
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -81,3 +85,5 @@
 ![image](https://github.com/leahmontag/Bank-Leumi-Project/assets/89600755/4ca55932-2309-4cec-95e5-61b8091d6d09)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
