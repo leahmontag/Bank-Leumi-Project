@@ -1,5 +1,5 @@
 
-accessKey          = "AKIAYS2NQYXUWTVN5TP7"
+accessKey          = "AKIAYS2NQYXUYZZXUP5Z"
 secretKey          = "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"
 region             = "us-west-2"
 deployRoleName     = "costume_role"
