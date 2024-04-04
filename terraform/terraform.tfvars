@@ -1,6 +1,6 @@
 
-accessKey          = "AKIAYS2NQYXUYZZXUP5Z"
-secretKey          = "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"
+accessKey          = "AKIAYS2NQYXUTACYQ3V5"
+secretKey          = "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"
 region             = "us-west-2"
 deployRoleName     = "costume_role"
 bucketName         = "bucket-s3-app"
